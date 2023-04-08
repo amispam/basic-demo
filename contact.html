@@ -5,30 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Contact</title>
 </head>
-<body>
-    <p><a href="index.html">Go back to Home Page</a></p><hr>
+<body style="background-color:blue; color:white;">
+    <p><a href="index.html" style="color:white;">Go back to Home Page</a></p><hr>
     <h1>My Contact Details</h1>
     <ul>
         <li>
-            email: yrohit199@gmail.com
+            email: myemail@gmail.com
         </li>
         <li>
-            phone: 9670687929
+            phone: 1234567890
         </li>
         <li>
-            address: sarnath, varanasi
+            address: my address
         </li>
     </ul>
+    <hr>
+    <h3>Send us a message</h3>
     <form action="mailto:yrohit199@gmail.com" method="post" enctype="text/plain">
         <label>Your Name: </label>
-        <input type="text" name="Name: " value=""><br />
+        <input type="text" name="my name" value="" required><br />
         <label>Your Favourite color: </label>
-        <input type="color" name="Color: "><br />
-        <label>Password: </label>
-        <input type="password" name="Passowrd"><br />
-        <input type="date" name="Date: "><br />
+        <input type="color" name="my favourite color"required><br />
+        <label>Your DOB: </label>
+        <input type="date" name="my dob" required><br />
         <label>Your message: </label><br />
-        <textarea name="message" cols="40" rows="5"></textarea><br />
+        <textarea name="my message" cols="40" rows="5" required></textarea><br />
+        <label>Your Email: </label><br />
+        <input type="email" name="my email" required>
         <input type="submit">
     </form>
 </body>
